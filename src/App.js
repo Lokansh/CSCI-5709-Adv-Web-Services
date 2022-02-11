@@ -1,4 +1,4 @@
-import recycle_logo from "./Media/recycle_logo.png";
+import recycle_logo from "./Media/recycle_logo2.png";
 import "./App.css";
 import React, { useState } from "react";
 import QueryForm from "./Component/QueryForm";
