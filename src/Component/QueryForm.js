@@ -49,7 +49,7 @@ function QueryForm(props) {
       setMobileErrorMsg(
         "Please provide mobile number in correct format (Eg. '+1-8087339090')"
       );
-      setIsName(false);
+      setIsMobile(false);
     } else {
       setIsData(true);
       setIsMobile(true);
