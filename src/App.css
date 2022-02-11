@@ -1,0 +1,52 @@
+.App {
+  background-color: #009e0f;
+}
+
+.Contact {
+  background-color: #009e0f;
+  text-align: center;
+  font-size: 26px;
+}
+
+.Component {
+  background-color: #ffd966;
+  min-height: 100vh;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  border-radius: 25px;
+  border: 2px solid #000000;
+  padding: 5px;
+}
+
+.header img {
+  float: left;
+  width: 60px;
+  height: 60px;
+}
+
+.header h1 {
+  position: relative;
+  color: white;
+  top: 16px;
+  left: 10px;
+}
+
+.header h2 {
+  background-color: #009e0f;
+  text-align: center;
+  justify-content: center;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.Borders {
+  border-radius: 25px;
+  border: 2px solid #73ad21;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
