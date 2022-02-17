@@ -10,18 +10,7 @@ import UserProfile from "./Pages/UserProfile";
 function App() {
   return (
     <div className="App">
-      {/* <nav>
-        <ul>
-          <li>
-            <NavLink to="/">Home</NavLink>
-          </li>
-          <li>
-            <NavLink to="/about">About</NavLink>
-          </li>
-        </ul>
-      </nav> */}
-      <h1>App Page</h1>
-      {/* <Login setEmail={setEmail} setPassword={setPassword}></Login> */}
+      <h1>User Management Application</h1>
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/login" element={<Login></Login>}></Route>

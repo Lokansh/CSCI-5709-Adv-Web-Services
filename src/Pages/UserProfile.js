@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
+import "./Pages.css";
 
 function UserProfile() {
   const [user, setuser] = useState([]);
@@ -36,6 +37,7 @@ function UserProfile() {
         <h4>Email : {user.email}</h4>
       </div>
       <div>
+        &nbsp;
         <button type="submit" onClick={handleGoBack}>
           Go Back
         </button>
