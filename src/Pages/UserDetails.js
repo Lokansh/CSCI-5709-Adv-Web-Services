@@ -86,7 +86,7 @@ function UserDetails() {
                   ></img>
                 </Paper>
               </Grid>
-              <Grid item xs={24} sm={24}>
+              <Grid item xs={12} sm={12}>
                 <Paper className={classes.paper}>
                   <h4>
                     Last Name : {r.lastName} &nbsp;First Name : {r.firstName}
