@@ -38,7 +38,7 @@ router.get("/:id", (req, res) => {
         }
       }
     } else {
-      return res.status(404).json({
+      return res.status(204).json({
         message: "No users database found",
         success: false,
       });

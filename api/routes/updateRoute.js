@@ -29,7 +29,6 @@ router.put("/:id", (req, res) => {
               userData.email != undefined &&
               userData.firstName != undefined
             ) {
-              console.log("Inside 3");
               obj.email = userData.email;
               obj.firstName = userData.firstName;
               usersObj[i] = obj;
@@ -37,14 +36,12 @@ router.put("/:id", (req, res) => {
                 .status(200)
                 .json({ success: true, message: "User updated" });
             } else if (userData.email != undefined) {
-              console.log("Inside 1");
               obj.email = userData.email;
               usersObj[i] = obj;
               return res
                 .status(200)
                 .json({ success: true, message: "User updated" });
             } else if (userData.firstName != undefined) {
-              console.log("Inside 2");
               obj.firstName = userData.firstName;
               usersObj[i] = obj;
               return res
@@ -71,7 +68,7 @@ router.put("/:id", (req, res) => {
         }
       }
     } else {
-      return res.status(404).json({
+      return res.status(204).json({
         message: "No users database found",
         success: false,
       });
